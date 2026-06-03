@@ -1,0 +1,12 @@
+{
+  "cliente": "Monster of The Future",
+  "cor": "#6CC0BA",
+  "letra": "LM",
+  "lancamento": "MOTF01",
+  "atualizado": "03/06/2026",
+  "kpis": {
+    "spend": 29.59,
+    "leads": 4,
+    "cpl": 7.4
+  }
+}
