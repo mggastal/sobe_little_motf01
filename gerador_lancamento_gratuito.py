@@ -17,7 +17,7 @@ NOME_CLIENTE     = "Monster of The Future"
 LOGO_LETRA       = "LM"
 COR_ACENTO       = "#6CC0BA"
 
-LANCAMENTO_COD   = "RDC02"        # filtra campanhas; "" = ver tudo
+LANCAMENTO_COD   = "MOTF01"        # filtra campanhas; "" = ver tudo
 USAR_PESQUISA    = False            # False = oculta aba Pesquisa
 USAR_VENDAS      = False            # False = oculta menu Vendas (Hotmart)
 
