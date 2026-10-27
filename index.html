@@ -205,6 +205,11 @@ details.desk-only{display:block!important;}
   .seg-card{overflow-x:auto!important;}
   .daily-side{flex-direction:row;gap:12px;border-right:none;border-bottom:1px solid var(--border);}
 }
+.page-footer{background:#f0f2f7;border-top:1px solid rgba(0,0,0,.07);padding:18px 24px;display:flex;flex-direction:column;align-items:center;gap:6px;margin-top:auto;}
+[data-theme="dark"] .page-footer{background:#0d1220;border-top-color:rgba(255,255,255,.06);}
+.page-footer img{height:28px;opacity:.7;}
+[data-theme="dark"] .page-footer img{filter:brightness(0) invert(1);opacity:.35;}
+.page-footer-txt{font-size:11px;color:#9ca3af;}
 </style>
 </head>
 <body>
@@ -218,7 +223,7 @@ details.desk-only{display:block!important;}
   </div>
   <nav class="sb-nav">
     <div style="font-size:9px;font-weight:700;color:rgba(255,255,255,.25);text-transform:uppercase;letter-spacing:1.5px;padding:6px 10px 4px">Captação</div>
-    <button class="sb-item active" onclick="goPage('meta',this)"><span class="ico">🎯</span>Meta Ads</button>
+    <button class="sb-item active" onclick="goPage('meta',this)"><span class="ico"><img src="https://mggastal.github.io/sobe-template/metaads.png" alt="" style="width:15px;height:15px;object-fit:contain;vertical-align:-2px"></span>Meta Ads</button>
     <button class="sb-item" onclick="goPage('diario',this)"><span class="ico">📈</span>Métricas Diárias</button>
     <button class="sb-item" id="sbPesquisa" onclick="goPage('pesquisa',this)"><span class="ico">🔍</span>Pesquisa</button>
     <div id="sbVendasGroup" style="display:none">
@@ -426,6 +431,10 @@ details.desk-only{display:block!important;}
     </div>
 
   </div>
+  <footer class="page-footer">
+    <img src="https://mggastal.github.io/sobe-template/sobe.png" alt="Sobé Estratégias" onerror="this.style.display='none'">
+    <span class="page-footer-txt">Desenvolvido por <strong>Sobé Estratégias</strong></span>
+  </footer>
 </main>
 </div>
 
